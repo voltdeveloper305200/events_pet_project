@@ -1,0 +1,46 @@
+<template>
+  <header class="menu">
+    <div class="menu-content">
+      <div class="menu-content__logo">EventsBoard</div>
+      <div class="menu-content__nav">
+        <router-link class="nav-item" to="/">
+          <i class="fa-solid fa-house"></i>
+          <span class="ml-6">Главная</span>
+        </router-link>
+        <router-link class="nav-item ml-24" to="/my-events">
+          <i class="fa-solid fa-user"></i>
+          <span class="ml-6">Мои события</span>
+        </router-link>
+      </div>
+    </div>
+  </header>
+</template>
+
+<style lang="scss" scoped>
+.menu {
+  padding: theme("spacing.24");
+  border-radius: 0px 0px 24px 24px;
+  background: theme("colors.white");
+  box-shadow: theme("boxShadow.menu");
+  border: 1px solid theme("colors.stroke");
+  .menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__logo {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 22px;
+      color: theme("colors.heading");
+    }
+    &__nav {
+      .nav-item {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: theme("colors.basic");
+      }
+    }
+  }
+}
+</style>
