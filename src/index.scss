@@ -8,12 +8,17 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background: #f8f8f8;
 }
 
 .main-container {
   width: 100%;
-  max-width: 1135px;
+  max-width: 1235px;
   margin: 0 auto;
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.vue-skeletor {
+  border-radius: 8px;
 }

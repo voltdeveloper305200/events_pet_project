@@ -1,0 +1,1604 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Robust hybrid array",
+      "date": "2023-06-24",
+      "direction": "Fullstack",
+      "cost": 372.69,
+      "city": "Johnfurt"
+    },
+    {
+      "id": 2,
+      "title": "Multi-lateral systematic moratorium",
+      "date": "2024-11-08",
+      "direction": "Frontend",
+      "cost": 500.23,
+      "city": "Brianchester"
+    },
+    {
+      "id": 3,
+      "title": "Monitored bandwidth-monitored structure",
+      "date": "2024-01-23",
+      "direction": "Frontend",
+      "cost": 656.74,
+      "city": "West Jessicamouth"
+    },
+    {
+      "id": 4,
+      "title": "Vision-oriented tertiary firmware",
+      "date": "2024-05-05",
+      "direction": "Fullstack",
+      "cost": 608.76,
+      "city": "Tracyview"
+    },
+    {
+      "id": 5,
+      "title": "Digitized analyzing project",
+      "date": "2023-07-26",
+      "direction": "Frontend",
+      "cost": 702.38,
+      "city": "Sabrinaborough"
+    },
+    {
+      "id": 6,
+      "title": "Devolved high-level secured line",
+      "date": "2024-06-24",
+      "direction": "Backend",
+      "cost": 340.87,
+      "city": "Susanburgh"
+    },
+    {
+      "id": 7,
+      "title": "Face-to-face didactic software",
+      "date": "2023-10-19",
+      "direction": "Frontend",
+      "cost": 852.17,
+      "city": "South Victoria"
+    },
+    {
+      "id": 8,
+      "title": "Multi-tiered global Internet solution",
+      "date": "2025-01-08",
+      "direction": "Fullstack",
+      "cost": 213.41,
+      "city": "Nathanbury"
+    },
+    {
+      "id": 9,
+      "title": "Enhanced multimedia matrix",
+      "date": "2023-10-31",
+      "direction": "Backend",
+      "cost": 771.81,
+      "city": "Duffystad"
+    },
+    {
+      "id": 10,
+      "title": "Robust static middleware",
+      "date": "2024-06-07",
+      "direction": "DevOps",
+      "cost": 913.97,
+      "city": "Port Scott"
+    },
+    {
+      "id": 11,
+      "title": "Face-to-face contextually-based superstructure",
+      "date": "2023-08-11",
+      "direction": "DevOps",
+      "cost": 890.47,
+      "city": "Billyberg"
+    },
+    {
+      "id": 12,
+      "title": "Synergistic reciprocal framework",
+      "date": "2024-08-09",
+      "direction": "Backend",
+      "cost": 604.09,
+      "city": "Tiffanyton"
+    },
+    {
+      "id": 13,
+      "title": "Customer-focused actuating initiative",
+      "date": "2024-04-12",
+      "direction": "Fullstack",
+      "cost": 937.57,
+      "city": "Port Edwardport"
+    },
+    {
+      "id": 14,
+      "title": "Configurable systematic budgetary management",
+      "date": "2024-09-08",
+      "direction": "Frontend",
+      "cost": 794.01,
+      "city": "New Jenniferfurt"
+    },
+    {
+      "id": 15,
+      "title": "Focused 3rdgeneration toolset",
+      "date": "2024-12-28",
+      "direction": "Fullstack",
+      "cost": 338.12,
+      "city": "Johnsonborough"
+    },
+    {
+      "id": 16,
+      "title": "Intuitive user-facing neural-net",
+      "date": "2024-03-13",
+      "direction": "Backend",
+      "cost": 609.18,
+      "city": "Mistyside"
+    },
+    {
+      "id": 17,
+      "title": "Visionary national complexity",
+      "date": "2025-01-28",
+      "direction": "DevOps",
+      "cost": 213.57,
+      "city": "Caldwellborough"
+    },
+    {
+      "id": 18,
+      "title": "Operative well-modulated parallelism",
+      "date": "2024-02-03",
+      "direction": "Fullstack",
+      "cost": 633.13,
+      "city": "North Sarah"
+    },
+    {
+      "id": 19,
+      "title": "Inverse systematic initiative",
+      "date": "2023-07-26",
+      "direction": "Backend",
+      "cost": 358.31,
+      "city": "Lake Bradley"
+    },
+    {
+      "id": 20,
+      "title": "Multi-channeled multi-tasking pricing structure",
+      "date": "2023-10-30",
+      "direction": "Fullstack",
+      "cost": 593.2,
+      "city": "Port Sandra"
+    },
+    {
+      "id": 21,
+      "title": "Automated clear-thinking parallelism",
+      "date": "2024-02-16",
+      "direction": "Frontend",
+      "cost": 273.93,
+      "city": "Lake Ann"
+    },
+    {
+      "id": 22,
+      "title": "Reduced didactic paradigm",
+      "date": "2024-06-14",
+      "direction": "Fullstack",
+      "cost": 195.9,
+      "city": "North Logan"
+    },
+    {
+      "id": 23,
+      "title": "Quality-focused non-volatile hierarchy",
+      "date": "2024-08-18",
+      "direction": "Frontend",
+      "cost": 764.98,
+      "city": "Lake Veronica"
+    },
+    {
+      "id": 24,
+      "title": "Synergized discrete synergy",
+      "date": "2025-02-10",
+      "direction": "Frontend",
+      "cost": 952.51,
+      "city": "West Connieview"
+    },
+    {
+      "id": 25,
+      "title": "Centralized uniform adapter",
+      "date": "2023-10-27",
+      "direction": "DevOps",
+      "cost": 503.18,
+      "city": "Torresview"
+    },
+    {
+      "id": 26,
+      "title": "User-centric tertiary help-desk",
+      "date": "2024-07-10",
+      "direction": "Fullstack",
+      "cost": 214.89,
+      "city": "Richardsland"
+    },
+    {
+      "id": 27,
+      "title": "Vision-oriented tertiary projection",
+      "date": "2025-06-09",
+      "direction": "Fullstack",
+      "cost": 811.53,
+      "city": "Trevinotown"
+    },
+    {
+      "id": 28,
+      "title": "Fundamental coherent service-desk",
+      "date": "2024-02-09",
+      "direction": "Frontend",
+      "cost": 548.19,
+      "city": "Lake Michellemouth"
+    },
+    {
+      "id": 29,
+      "title": "Optional eco-centric Local Area Network",
+      "date": "2024-07-29",
+      "direction": "Backend",
+      "cost": 795.57,
+      "city": "Ronaldside"
+    },
+    {
+      "id": 30,
+      "title": "Sharable 24hour circuit",
+      "date": "2024-11-23",
+      "direction": "Frontend",
+      "cost": 294.47,
+      "city": "Lake Molly"
+    },
+    {
+      "id": 31,
+      "title": "User-friendly upward-trending collaboration",
+      "date": "2025-01-27",
+      "direction": "DevOps",
+      "cost": 496.4,
+      "city": "Stephanietown"
+    },
+    {
+      "id": 32,
+      "title": "Function-based systemic initiative",
+      "date": "2024-11-10",
+      "direction": "Backend",
+      "cost": 267.42,
+      "city": "Katherineshire"
+    },
+    {
+      "id": 33,
+      "title": "User-friendly client-driven migration",
+      "date": "2023-10-21",
+      "direction": "Fullstack",
+      "cost": 830.74,
+      "city": "Ericashire"
+    },
+    {
+      "id": 34,
+      "title": "Pre-emptive needs-based contingency",
+      "date": "2025-06-03",
+      "direction": "Fullstack",
+      "cost": 800.02,
+      "city": "Lake Savannah"
+    },
+    {
+      "id": 35,
+      "title": "Multi-lateral background circuit",
+      "date": "2024-10-13",
+      "direction": "Frontend",
+      "cost": 936.17,
+      "city": "Lake Brendafurt"
+    },
+    {
+      "id": 36,
+      "title": "Ergonomic explicit interface",
+      "date": "2023-12-29",
+      "direction": "Fullstack",
+      "cost": 153.17,
+      "city": "Port Antonio"
+    },
+    {
+      "id": 37,
+      "title": "Multi-layered exuding analyzer",
+      "date": "2024-01-17",
+      "direction": "Frontend",
+      "cost": 101.28,
+      "city": "Staceybury"
+    },
+    {
+      "id": 38,
+      "title": "Streamlined homogeneous groupware",
+      "date": "2025-01-17",
+      "direction": "Fullstack",
+      "cost": 572.1,
+      "city": "New Pamela"
+    },
+    {
+      "id": 39,
+      "title": "Synchronized attitude-oriented moderator",
+      "date": "2024-05-31",
+      "direction": "DevOps",
+      "cost": 682.76,
+      "city": "Lake Michael"
+    },
+    {
+      "id": 40,
+      "title": "Universal systematic pricing structure",
+      "date": "2023-10-22",
+      "direction": "Backend",
+      "cost": 795.0,
+      "city": "Fuentesmouth"
+    },
+    {
+      "id": 41,
+      "title": "Cloned dedicated intranet",
+      "date": "2024-12-22",
+      "direction": "DevOps",
+      "cost": 844.52,
+      "city": "North Austinland"
+    },
+    {
+      "id": 42,
+      "title": "Synchronized hybrid hardware",
+      "date": "2023-10-25",
+      "direction": "DevOps",
+      "cost": 187.37,
+      "city": "North Jameschester"
+    },
+    {
+      "id": 43,
+      "title": "Fundamental methodical conglomeration",
+      "date": "2023-08-05",
+      "direction": "Backend",
+      "cost": 722.5,
+      "city": "Jeffreychester"
+    },
+    {
+      "id": 44,
+      "title": "Multi-channeled dedicated structure",
+      "date": "2024-07-29",
+      "direction": "DevOps",
+      "cost": 993.05,
+      "city": "Port Jamieberg"
+    },
+    {
+      "id": 45,
+      "title": "Horizontal grid-enabled Graphic Interface",
+      "date": "2023-07-10",
+      "direction": "Frontend",
+      "cost": 635.25,
+      "city": "Nathanmouth"
+    },
+    {
+      "id": 46,
+      "title": "Networked tangible orchestration",
+      "date": "2023-09-09",
+      "direction": "DevOps",
+      "cost": 264.82,
+      "city": "Nicholsfurt"
+    },
+    {
+      "id": 47,
+      "title": "Total heuristic middleware",
+      "date": "2023-08-10",
+      "direction": "Fullstack",
+      "cost": 952.55,
+      "city": "Lake Carolynberg"
+    },
+    {
+      "id": 48,
+      "title": "Adaptive static frame",
+      "date": "2025-04-26",
+      "direction": "Frontend",
+      "cost": 352.32,
+      "city": "South Vanessaville"
+    },
+    {
+      "id": 49,
+      "title": "Stand-alone zero-defect structure",
+      "date": "2025-03-11",
+      "direction": "Frontend",
+      "cost": 758.19,
+      "city": "Christensenport"
+    },
+    {
+      "id": 50,
+      "title": "Diverse client-server emulation",
+      "date": "2024-02-27",
+      "direction": "DevOps",
+      "cost": 435.48,
+      "city": "Johnsonview"
+    },
+    {
+      "id": 51,
+      "title": "Focused contextually-based hardware",
+      "date": "2024-03-15",
+      "direction": "Fullstack",
+      "cost": 494.14,
+      "city": "Port Tony"
+    },
+    {
+      "id": 52,
+      "title": "Robust 3rdgeneration artificial intelligence",
+      "date": "2024-12-15",
+      "direction": "Backend",
+      "cost": 858.06,
+      "city": "North Andrew"
+    },
+    {
+      "id": 53,
+      "title": "Progressive 4thgeneration algorithm",
+      "date": "2024-05-10",
+      "direction": "Frontend",
+      "cost": 540.9,
+      "city": "Peterbury"
+    },
+    {
+      "id": 54,
+      "title": "Open-source analyzing protocol",
+      "date": "2024-10-28",
+      "direction": "Backend",
+      "cost": 505.35,
+      "city": "West Mark"
+    },
+    {
+      "id": 55,
+      "title": "Persevering 5thgeneration extranet",
+      "date": "2024-08-06",
+      "direction": "Fullstack",
+      "cost": 773.15,
+      "city": "West James"
+    },
+    {
+      "id": 56,
+      "title": "Re-engineered 3rdgeneration parallelism",
+      "date": "2025-06-05",
+      "direction": "DevOps",
+      "cost": 659.14,
+      "city": "Geoffreyland"
+    },
+    {
+      "id": 57,
+      "title": "Optimized homogeneous function",
+      "date": "2024-01-15",
+      "direction": "DevOps",
+      "cost": 102.23,
+      "city": "West Rodney"
+    },
+    {
+      "id": 58,
+      "title": "Centralized high-level model",
+      "date": "2024-08-02",
+      "direction": "Frontend",
+      "cost": 372.19,
+      "city": "Laurenhaven"
+    },
+    {
+      "id": 59,
+      "title": "Face-to-face client-driven service-desk",
+      "date": "2024-09-23",
+      "direction": "Fullstack",
+      "cost": 427.87,
+      "city": "Murphyhaven"
+    },
+    {
+      "id": 60,
+      "title": "Managed high-level utilization",
+      "date": "2024-11-04",
+      "direction": "Fullstack",
+      "cost": 383.69,
+      "city": "Shannonfort"
+    },
+    {
+      "id": 61,
+      "title": "Stand-alone attitude-oriented portal",
+      "date": "2023-08-16",
+      "direction": "Fullstack",
+      "cost": 173.42,
+      "city": "Lucerofort"
+    },
+    {
+      "id": 62,
+      "title": "Focused content-based utilization",
+      "date": "2024-03-31",
+      "direction": "Frontend",
+      "cost": 666.9,
+      "city": "Davidchester"
+    },
+    {
+      "id": 63,
+      "title": "Horizontal fault-tolerant model",
+      "date": "2023-10-13",
+      "direction": "Backend",
+      "cost": 556.34,
+      "city": "North Rachelmouth"
+    },
+    {
+      "id": 64,
+      "title": "Profit-focused maximized workforce",
+      "date": "2025-05-21",
+      "direction": "DevOps",
+      "cost": 780.4,
+      "city": "East Ashley"
+    },
+    {
+      "id": 65,
+      "title": "Assimilated executive process improvement",
+      "date": "2024-04-30",
+      "direction": "Fullstack",
+      "cost": 209.35,
+      "city": "Port Lisa"
+    },
+    {
+      "id": 66,
+      "title": "Function-based composite forecast",
+      "date": "2024-06-07",
+      "direction": "DevOps",
+      "cost": 565.85,
+      "city": "North Jessicachester"
+    },
+    {
+      "id": 67,
+      "title": "Proactive actuating Graphic Interface",
+      "date": "2024-07-11",
+      "direction": "Backend",
+      "cost": 273.86,
+      "city": "Lake Jerome"
+    },
+    {
+      "id": 68,
+      "title": "Upgradable mission-critical forecast",
+      "date": "2024-09-16",
+      "direction": "DevOps",
+      "cost": 417.46,
+      "city": "Morganborough"
+    },
+    {
+      "id": 69,
+      "title": "Robust actuating standardization",
+      "date": "2024-11-25",
+      "direction": "Frontend",
+      "cost": 153.76,
+      "city": "Reynoldsmouth"
+    },
+    {
+      "id": 70,
+      "title": "Focused cohesive framework",
+      "date": "2024-04-09",
+      "direction": "Backend",
+      "cost": 654.38,
+      "city": "Stevensonfort"
+    },
+    {
+      "id": 71,
+      "title": "Right-sized optimizing core",
+      "date": "2024-05-10",
+      "direction": "DevOps",
+      "cost": 329.87,
+      "city": "Michelleville"
+    },
+    {
+      "id": 72,
+      "title": "Centralized upward-trending concept",
+      "date": "2024-12-13",
+      "direction": "Frontend",
+      "cost": 677.07,
+      "city": "East Cynthia"
+    },
+    {
+      "id": 73,
+      "title": "Compatible modular orchestration",
+      "date": "2023-09-28",
+      "direction": "Backend",
+      "cost": 970.56,
+      "city": "New Robert"
+    },
+    {
+      "id": 74,
+      "title": "Polarized radical process improvement",
+      "date": "2024-01-11",
+      "direction": "Fullstack",
+      "cost": 318.12,
+      "city": "Crystalburgh"
+    },
+    {
+      "id": 75,
+      "title": "Reverse-engineered 24hour analyzer",
+      "date": "2023-08-11",
+      "direction": "DevOps",
+      "cost": 988.35,
+      "city": "Allenmouth"
+    },
+    {
+      "id": 76,
+      "title": "Re-contextualized human-resource strategy",
+      "date": "2023-11-24",
+      "direction": "Backend",
+      "cost": 839.23,
+      "city": "Ricardomouth"
+    },
+    {
+      "id": 77,
+      "title": "Networked disintermediate open architecture",
+      "date": "2024-09-19",
+      "direction": "Frontend",
+      "cost": 339.09,
+      "city": "New Stephenland"
+    },
+    {
+      "id": 78,
+      "title": "Programmable tangible Internet solution",
+      "date": "2024-12-17",
+      "direction": "Fullstack",
+      "cost": 790.55,
+      "city": "East Rickey"
+    },
+    {
+      "id": 79,
+      "title": "Total dynamic hardware",
+      "date": "2024-12-06",
+      "direction": "Backend",
+      "cost": 689.52,
+      "city": "North Bobbymouth"
+    },
+    {
+      "id": 80,
+      "title": "Managed 4thgeneration initiative",
+      "date": "2023-06-23",
+      "direction": "Fullstack",
+      "cost": 419.84,
+      "city": "Oliviaburgh"
+    },
+    {
+      "id": 81,
+      "title": "Adaptive well-modulated function",
+      "date": "2023-07-03",
+      "direction": "DevOps",
+      "cost": 615.96,
+      "city": "Leetown"
+    },
+    {
+      "id": 82,
+      "title": "Upgradable tertiary algorithm",
+      "date": "2023-11-21",
+      "direction": "Frontend",
+      "cost": 429.05,
+      "city": "Gonzalesview"
+    },
+    {
+      "id": 83,
+      "title": "Distributed contextually-based groupware",
+      "date": "2023-10-05",
+      "direction": "Frontend",
+      "cost": 419.54,
+      "city": "West David"
+    },
+    {
+      "id": 84,
+      "title": "Phased solution-oriented core",
+      "date": "2025-04-09",
+      "direction": "DevOps",
+      "cost": 817.72,
+      "city": "Clarkestad"
+    },
+    {
+      "id": 85,
+      "title": "Upgradable object-oriented workforce",
+      "date": "2024-12-18",
+      "direction": "DevOps",
+      "cost": 991.52,
+      "city": "West Audreyville"
+    },
+    {
+      "id": 86,
+      "title": "Versatile upward-trending challenge",
+      "date": "2025-05-29",
+      "direction": "DevOps",
+      "cost": 296.95,
+      "city": "Port Johnbury"
+    },
+    {
+      "id": 87,
+      "title": "Grass-roots analyzing capacity",
+      "date": "2023-09-21",
+      "direction": "Fullstack",
+      "cost": 993.85,
+      "city": "West Deborah"
+    },
+    {
+      "id": 88,
+      "title": "Right-sized needs-based instruction set",
+      "date": "2025-02-02",
+      "direction": "Frontend",
+      "cost": 688.9,
+      "city": "Ryanborough"
+    },
+    {
+      "id": 89,
+      "title": "Triple-buffered client-server attitude",
+      "date": "2023-10-06",
+      "direction": "DevOps",
+      "cost": 481.1,
+      "city": "South Christinamouth"
+    },
+    {
+      "id": 90,
+      "title": "Customizable user-facing array",
+      "date": "2024-08-15",
+      "direction": "Frontend",
+      "cost": 854.92,
+      "city": "New Tyrone"
+    },
+    {
+      "id": 91,
+      "title": "Profound reciprocal customer loyalty",
+      "date": "2024-01-04",
+      "direction": "DevOps",
+      "cost": 236.03,
+      "city": "Lake Gregorymouth"
+    },
+    {
+      "id": 92,
+      "title": "Enterprise-wide upward-trending initiative",
+      "date": "2024-05-19",
+      "direction": "Backend",
+      "cost": 622.03,
+      "city": "West William"
+    },
+    {
+      "id": 93,
+      "title": "Expanded even-keeled synergy",
+      "date": "2025-01-23",
+      "direction": "Backend",
+      "cost": 552.57,
+      "city": "Floresville"
+    },
+    {
+      "id": 94,
+      "title": "Implemented homogeneous task-force",
+      "date": "2024-11-03",
+      "direction": "DevOps",
+      "cost": 671.05,
+      "city": "New Tyler"
+    },
+    {
+      "id": 95,
+      "title": "Team-oriented bandwidth-monitored complexity",
+      "date": "2024-03-31",
+      "direction": "DevOps",
+      "cost": 812.45,
+      "city": "North Glen"
+    },
+    {
+      "id": 96,
+      "title": "Pre-emptive holistic complexity",
+      "date": "2023-10-04",
+      "direction": "Backend",
+      "cost": 460.12,
+      "city": "East Kevinborough"
+    },
+    {
+      "id": 97,
+      "title": "Open-architected optimal architecture",
+      "date": "2023-10-03",
+      "direction": "DevOps",
+      "cost": 896.55,
+      "city": "South Abigailborough"
+    },
+    {
+      "id": 98,
+      "title": "Public-key full-range info-mediaries",
+      "date": "2024-09-12",
+      "direction": "DevOps",
+      "cost": 371.88,
+      "city": "Brendaville"
+    },
+    {
+      "id": 99,
+      "title": "Secured solution-oriented benchmark",
+      "date": "2025-01-26",
+      "direction": "Frontend",
+      "cost": 164.22,
+      "city": "New Christy"
+    },
+    {
+      "id": 100,
+      "title": "Integrated intangible customer loyalty",
+      "date": "2024-03-23",
+      "direction": "DevOps",
+      "cost": 739.16,
+      "city": "Javierport"
+    },
+    {
+      "id": 101,
+      "title": "Organized grid-enabled paradigm",
+      "date": "2024-10-31",
+      "direction": "DevOps",
+      "cost": 438.96,
+      "city": "New Danielshire"
+    },
+    {
+      "id": 102,
+      "title": "Versatile multimedia pricing structure",
+      "date": "2023-08-21",
+      "direction": "Frontend",
+      "cost": 316.49,
+      "city": "Lunaberg"
+    },
+    {
+      "id": 103,
+      "title": "Realigned scalable interface",
+      "date": "2025-01-31",
+      "direction": "Frontend",
+      "cost": 569.07,
+      "city": "Port Bonnieport"
+    },
+    {
+      "id": 104,
+      "title": "Profound object-oriented throughput",
+      "date": "2024-11-20",
+      "direction": "Backend",
+      "cost": 316.54,
+      "city": "New Caseyshire"
+    },
+    {
+      "id": 105,
+      "title": "Enhanced mobile approach",
+      "date": "2025-02-16",
+      "direction": "DevOps",
+      "cost": 177.51,
+      "city": "Jamesland"
+    },
+    {
+      "id": 106,
+      "title": "Pre-emptive attitude-oriented process improvement",
+      "date": "2023-09-08",
+      "direction": "Frontend",
+      "cost": 202.41,
+      "city": "East Jeffrey"
+    },
+    {
+      "id": 107,
+      "title": "Sharable high-level conglomeration",
+      "date": "2023-08-20",
+      "direction": "Fullstack",
+      "cost": 490.85,
+      "city": "Jonathanburgh"
+    },
+    {
+      "id": 108,
+      "title": "Streamlined background customer loyalty",
+      "date": "2024-04-22",
+      "direction": "Frontend",
+      "cost": 193.11,
+      "city": "Frankburgh"
+    },
+    {
+      "id": 109,
+      "title": "Diverse multi-tasking leverage",
+      "date": "2024-11-22",
+      "direction": "DevOps",
+      "cost": 334.58,
+      "city": "South Tinaville"
+    },
+    {
+      "id": 110,
+      "title": "Cross-platform human-resource methodology",
+      "date": "2023-09-03",
+      "direction": "Frontend",
+      "cost": 713.49,
+      "city": "Russellview"
+    },
+    {
+      "id": 111,
+      "title": "Persistent background encryption",
+      "date": "2024-04-10",
+      "direction": "Frontend",
+      "cost": 487.94,
+      "city": "Lake Rhondafort"
+    },
+    {
+      "id": 112,
+      "title": "Face-to-face composite matrix",
+      "date": "2023-06-22",
+      "direction": "Fullstack",
+      "cost": 466.75,
+      "city": "Port Robert"
+    },
+    {
+      "id": 113,
+      "title": "Synergistic mobile task-force",
+      "date": "2025-04-16",
+      "direction": "DevOps",
+      "cost": 361.45,
+      "city": "Ariasside"
+    },
+    {
+      "id": 114,
+      "title": "Open-source upward-trending collaboration",
+      "date": "2023-10-19",
+      "direction": "Fullstack",
+      "cost": 892.69,
+      "city": "Kevinberg"
+    },
+    {
+      "id": 115,
+      "title": "Synchronized maximized orchestration",
+      "date": "2023-08-31",
+      "direction": "Fullstack",
+      "cost": 189.03,
+      "city": "Lake Nicholasburgh"
+    },
+    {
+      "id": 116,
+      "title": "Future-proofed regional budgetary management",
+      "date": "2025-05-04",
+      "direction": "Frontend",
+      "cost": 959.7,
+      "city": "New Kelseyberg"
+    },
+    {
+      "id": 117,
+      "title": "Total 6thgeneration system engine",
+      "date": "2024-05-18",
+      "direction": "DevOps",
+      "cost": 345.0,
+      "city": "Kathleenland"
+    },
+    {
+      "id": 118,
+      "title": "Upgradable impactful help-desk",
+      "date": "2024-03-13",
+      "direction": "Backend",
+      "cost": 756.49,
+      "city": "Rodgersmouth"
+    },
+    {
+      "id": 119,
+      "title": "Pre-emptive mobile throughput",
+      "date": "2024-01-10",
+      "direction": "Fullstack",
+      "cost": 464.77,
+      "city": "Cuevasfurt"
+    },
+    {
+      "id": 120,
+      "title": "Digitized clear-thinking function",
+      "date": "2024-07-18",
+      "direction": "Fullstack",
+      "cost": 210.8,
+      "city": "Jasonmouth"
+    },
+    {
+      "id": 121,
+      "title": "Seamless asynchronous collaboration",
+      "date": "2025-02-05",
+      "direction": "DevOps",
+      "cost": 139.56,
+      "city": "Johnborough"
+    },
+    {
+      "id": 122,
+      "title": "Customizable multi-tasking strategy",
+      "date": "2024-12-08",
+      "direction": "DevOps",
+      "cost": 299.62,
+      "city": "South Anthony"
+    },
+    {
+      "id": 123,
+      "title": "Grass-roots didactic core",
+      "date": "2023-09-30",
+      "direction": "Fullstack",
+      "cost": 446.75,
+      "city": "Danielleburgh"
+    },
+    {
+      "id": 124,
+      "title": "Cloned zero tolerance challenge",
+      "date": "2023-09-06",
+      "direction": "Backend",
+      "cost": 604.67,
+      "city": "West Christine"
+    },
+    {
+      "id": 125,
+      "title": "Secured modular Internet solution",
+      "date": "2024-04-23",
+      "direction": "Backend",
+      "cost": 853.43,
+      "city": "West Kevin"
+    },
+    {
+      "id": 126,
+      "title": "Mandatory human-resource encoding",
+      "date": "2025-05-06",
+      "direction": "Frontend",
+      "cost": 437.68,
+      "city": "Figueroaland"
+    },
+    {
+      "id": 127,
+      "title": "User-centric solution-oriented database",
+      "date": "2023-08-23",
+      "direction": "Fullstack",
+      "cost": 583.39,
+      "city": "Janetburgh"
+    },
+    {
+      "id": 128,
+      "title": "Object-based client-server circuit",
+      "date": "2025-03-05",
+      "direction": "Fullstack",
+      "cost": 453.5,
+      "city": "Gonzalesfort"
+    },
+    {
+      "id": 129,
+      "title": "Organic methodical architecture",
+      "date": "2025-04-19",
+      "direction": "Backend",
+      "cost": 602.04,
+      "city": "Stewartberg"
+    },
+    {
+      "id": 130,
+      "title": "Implemented non-volatile interface",
+      "date": "2024-03-28",
+      "direction": "Fullstack",
+      "cost": 485.65,
+      "city": "East Carlos"
+    },
+    {
+      "id": 131,
+      "title": "Distributed multi-tasking projection",
+      "date": "2024-06-30",
+      "direction": "Frontend",
+      "cost": 927.02,
+      "city": "Donnaview"
+    },
+    {
+      "id": 132,
+      "title": "Phased human-resource project",
+      "date": "2023-06-16",
+      "direction": "DevOps",
+      "cost": 218.75,
+      "city": "South Josephville"
+    },
+    {
+      "id": 133,
+      "title": "Programmable client-server alliance",
+      "date": "2024-01-30",
+      "direction": "Backend",
+      "cost": 894.05,
+      "city": "Charlestown"
+    },
+    {
+      "id": 134,
+      "title": "Reverse-engineered multimedia open architecture",
+      "date": "2024-05-07",
+      "direction": "Fullstack",
+      "cost": 786.45,
+      "city": "Jonathanton"
+    },
+    {
+      "id": 135,
+      "title": "Face-to-face neutral hierarchy",
+      "date": "2024-01-29",
+      "direction": "Backend",
+      "cost": 908.53,
+      "city": "East Annette"
+    },
+    {
+      "id": 136,
+      "title": "Focused exuding system engine",
+      "date": "2024-11-04",
+      "direction": "DevOps",
+      "cost": 213.12,
+      "city": "Port Donna"
+    },
+    {
+      "id": 137,
+      "title": "Synchronized actuating core",
+      "date": "2023-11-18",
+      "direction": "DevOps",
+      "cost": 225.26,
+      "city": "Mcguireport"
+    },
+    {
+      "id": 138,
+      "title": "Customizable systematic toolset",
+      "date": "2024-07-19",
+      "direction": "DevOps",
+      "cost": 714.39,
+      "city": "North Katelynview"
+    },
+    {
+      "id": 139,
+      "title": "User-friendly multimedia focus group",
+      "date": "2023-11-12",
+      "direction": "DevOps",
+      "cost": 236.06,
+      "city": "Mcdonaldville"
+    },
+    {
+      "id": 140,
+      "title": "Virtual responsive solution",
+      "date": "2023-12-24",
+      "direction": "Backend",
+      "cost": 911.94,
+      "city": "North Sandyside"
+    },
+    {
+      "id": 141,
+      "title": "Total 6thgeneration functionalities",
+      "date": "2025-05-25",
+      "direction": "Fullstack",
+      "cost": 961.28,
+      "city": "Cruzfurt"
+    },
+    {
+      "id": 142,
+      "title": "Customizable regional database",
+      "date": "2025-05-14",
+      "direction": "Backend",
+      "cost": 882.79,
+      "city": "Port Garyfurt"
+    },
+    {
+      "id": 143,
+      "title": "Streamlined exuding portal",
+      "date": "2024-08-23",
+      "direction": "Fullstack",
+      "cost": 646.09,
+      "city": "Olsonstad"
+    },
+    {
+      "id": 144,
+      "title": "Compatible neutral capacity",
+      "date": "2023-08-04",
+      "direction": "DevOps",
+      "cost": 856.99,
+      "city": "Port Steventon"
+    },
+    {
+      "id": 145,
+      "title": "Expanded uniform leverage",
+      "date": "2025-05-25",
+      "direction": "Frontend",
+      "cost": 546.96,
+      "city": "North Rachelstad"
+    },
+    {
+      "id": 146,
+      "title": "Polarized solution-oriented orchestration",
+      "date": "2025-04-15",
+      "direction": "Backend",
+      "cost": 169.67,
+      "city": "Harrisonshire"
+    },
+    {
+      "id": 147,
+      "title": "Customer-focused attitude-oriented throughput",
+      "date": "2024-03-21",
+      "direction": "Frontend",
+      "cost": 147.76,
+      "city": "West Jenna"
+    },
+    {
+      "id": 148,
+      "title": "Pre-emptive coherent policy",
+      "date": "2025-03-08",
+      "direction": "DevOps",
+      "cost": 845.23,
+      "city": "Santosfurt"
+    },
+    {
+      "id": 149,
+      "title": "Centralized logistical application",
+      "date": "2024-11-11",
+      "direction": "Frontend",
+      "cost": 759.4,
+      "city": "Gordonville"
+    },
+    {
+      "id": 150,
+      "title": "Optimized systematic help-desk",
+      "date": "2023-10-24",
+      "direction": "Fullstack",
+      "cost": 858.34,
+      "city": "New Michellefurt"
+    },
+    {
+      "id": 151,
+      "title": "Ameliorated asynchronous capacity",
+      "date": "2023-12-21",
+      "direction": "DevOps",
+      "cost": 463.39,
+      "city": "South Sheila"
+    },
+    {
+      "id": 152,
+      "title": "Persistent encompassing customer loyalty",
+      "date": "2024-08-23",
+      "direction": "Fullstack",
+      "cost": 542.69,
+      "city": "Justinchester"
+    },
+    {
+      "id": 153,
+      "title": "Innovative high-level projection",
+      "date": "2024-06-16",
+      "direction": "DevOps",
+      "cost": 237.0,
+      "city": "West Donnastad"
+    },
+    {
+      "id": 154,
+      "title": "Devolved dedicated model",
+      "date": "2024-11-18",
+      "direction": "Fullstack",
+      "cost": 794.69,
+      "city": "North Jerry"
+    },
+    {
+      "id": 155,
+      "title": "Pre-emptive bandwidth-monitored archive",
+      "date": "2023-10-01",
+      "direction": "Frontend",
+      "cost": 875.48,
+      "city": "Port Amandatown"
+    },
+    {
+      "id": 156,
+      "title": "Ameliorated optimizing service-desk",
+      "date": "2024-12-13",
+      "direction": "Backend",
+      "cost": 376.62,
+      "city": "Port Mark"
+    },
+    {
+      "id": 157,
+      "title": "Phased dedicated analyzer",
+      "date": "2023-12-15",
+      "direction": "Fullstack",
+      "cost": 560.8,
+      "city": "Port Christineville"
+    },
+    {
+      "id": 158,
+      "title": "Streamlined disintermediate array",
+      "date": "2024-07-24",
+      "direction": "Fullstack",
+      "cost": 568.89,
+      "city": "Murphyville"
+    },
+    {
+      "id": 159,
+      "title": "Compatible zero administration implementation",
+      "date": "2025-06-09",
+      "direction": "DevOps",
+      "cost": 967.95,
+      "city": "North Sean"
+    },
+    {
+      "id": 160,
+      "title": "Managed intermediate synergy",
+      "date": "2025-03-24",
+      "direction": "Fullstack",
+      "cost": 516.94,
+      "city": "North Stephanie"
+    },
+    {
+      "id": 161,
+      "title": "Adaptive multimedia conglomeration",
+      "date": "2023-06-13",
+      "direction": "Backend",
+      "cost": 227.51,
+      "city": "Lake Janet"
+    },
+    {
+      "id": 162,
+      "title": "Ameliorated system-worthy Graphical User Interface",
+      "date": "2024-12-25",
+      "direction": "Fullstack",
+      "cost": 139.27,
+      "city": "Smithmouth"
+    },
+    {
+      "id": 163,
+      "title": "Exclusive multi-tasking synergy",
+      "date": "2023-07-12",
+      "direction": "Backend",
+      "cost": 687.07,
+      "city": "Matthewchester"
+    },
+    {
+      "id": 164,
+      "title": "Open-architected multimedia application",
+      "date": "2023-08-18",
+      "direction": "Backend",
+      "cost": 896.32,
+      "city": "New Joanborough"
+    },
+    {
+      "id": 165,
+      "title": "Inverse tangible solution",
+      "date": "2024-10-14",
+      "direction": "Fullstack",
+      "cost": 876.7,
+      "city": "North Victoriachester"
+    },
+    {
+      "id": 166,
+      "title": "Up-sized composite database",
+      "date": "2024-08-15",
+      "direction": "Frontend",
+      "cost": 171.05,
+      "city": "Arellanoton"
+    },
+    {
+      "id": 167,
+      "title": "Automated clear-thinking core",
+      "date": "2023-12-01",
+      "direction": "Frontend",
+      "cost": 376.25,
+      "city": "Lake Julia"
+    },
+    {
+      "id": 168,
+      "title": "Switchable non-volatile neural-net",
+      "date": "2025-02-25",
+      "direction": "DevOps",
+      "cost": 933.42,
+      "city": "Freemanburgh"
+    },
+    {
+      "id": 169,
+      "title": "Visionary analyzing implementation",
+      "date": "2024-02-29",
+      "direction": "Backend",
+      "cost": 910.86,
+      "city": "West David"
+    },
+    {
+      "id": 170,
+      "title": "Distributed systematic interface",
+      "date": "2025-03-28",
+      "direction": "DevOps",
+      "cost": 154.02,
+      "city": "New Petertown"
+    },
+    {
+      "id": 171,
+      "title": "Multi-tiered actuating monitoring",
+      "date": "2023-12-08",
+      "direction": "DevOps",
+      "cost": 607.19,
+      "city": "West Derekside"
+    },
+    {
+      "id": 172,
+      "title": "Programmable high-level instruction set",
+      "date": "2024-02-08",
+      "direction": "DevOps",
+      "cost": 722.35,
+      "city": "Port Tiffanyport"
+    },
+    {
+      "id": 173,
+      "title": "Object-based global emulation",
+      "date": "2024-04-21",
+      "direction": "Fullstack",
+      "cost": 772.82,
+      "city": "Jadeland"
+    },
+    {
+      "id": 174,
+      "title": "Streamlined systematic project",
+      "date": "2024-09-26",
+      "direction": "Backend",
+      "cost": 142.22,
+      "city": "New Seanfurt"
+    },
+    {
+      "id": 175,
+      "title": "Virtual client-driven collaboration",
+      "date": "2023-09-13",
+      "direction": "DevOps",
+      "cost": 717.25,
+      "city": "Boyerborough"
+    },
+    {
+      "id": 176,
+      "title": "Secured regional database",
+      "date": "2024-06-15",
+      "direction": "DevOps",
+      "cost": 363.01,
+      "city": "South Markmouth"
+    },
+    {
+      "id": 177,
+      "title": "Realigned user-facing middleware",
+      "date": "2024-03-28",
+      "direction": "Fullstack",
+      "cost": 930.68,
+      "city": "New Chelsea"
+    },
+    {
+      "id": 178,
+      "title": "Enterprise-wide contextually-based portal",
+      "date": "2023-07-12",
+      "direction": "DevOps",
+      "cost": 829.36,
+      "city": "New Victoriafurt"
+    },
+    {
+      "id": 179,
+      "title": "Pre-emptive tertiary definition",
+      "date": "2023-12-16",
+      "direction": "Frontend",
+      "cost": 425.0,
+      "city": "North Danatown"
+    },
+    {
+      "id": 180,
+      "title": "Seamless fresh-thinking productivity",
+      "date": "2023-12-02",
+      "direction": "Backend",
+      "cost": 831.75,
+      "city": "Lake Tyler"
+    },
+    {
+      "id": 181,
+      "title": "Right-sized optimal help-desk",
+      "date": "2023-07-22",
+      "direction": "DevOps",
+      "cost": 697.45,
+      "city": "Harrisonfort"
+    },
+    {
+      "id": 182,
+      "title": "Persevering scalable moratorium",
+      "date": "2025-03-22",
+      "direction": "Fullstack",
+      "cost": 328.52,
+      "city": "Rosariostad"
+    },
+    {
+      "id": 183,
+      "title": "Organic modular orchestration",
+      "date": "2024-12-09",
+      "direction": "Fullstack",
+      "cost": 246.37,
+      "city": "Michaelview"
+    },
+    {
+      "id": 184,
+      "title": "Grass-roots content-based concept",
+      "date": "2023-06-16",
+      "direction": "Fullstack",
+      "cost": 462.08,
+      "city": "Kellyshire"
+    },
+    {
+      "id": 185,
+      "title": "Exclusive 24/7 methodology",
+      "date": "2023-10-08",
+      "direction": "DevOps",
+      "cost": 995.1,
+      "city": "Jacksonberg"
+    },
+    {
+      "id": 186,
+      "title": "Business-focused value-added interface",
+      "date": "2023-09-14",
+      "direction": "Fullstack",
+      "cost": 696.65,
+      "city": "East Michael"
+    },
+    {
+      "id": 187,
+      "title": "Total transitional success",
+      "date": "2023-10-01",
+      "direction": "Frontend",
+      "cost": 216.68,
+      "city": "Kevinhaven"
+    },
+    {
+      "id": 188,
+      "title": "Public-key didactic protocol",
+      "date": "2023-08-26",
+      "direction": "DevOps",
+      "cost": 387.37,
+      "city": "Harrisville"
+    },
+    {
+      "id": 189,
+      "title": "Persevering high-level installation",
+      "date": "2025-05-29",
+      "direction": "DevOps",
+      "cost": 546.04,
+      "city": "Lake John"
+    },
+    {
+      "id": 190,
+      "title": "Devolved background knowledge user",
+      "date": "2025-06-12",
+      "direction": "Fullstack",
+      "cost": 892.95,
+      "city": "New Holly"
+    },
+    {
+      "id": 191,
+      "title": "Virtual interactive algorithm",
+      "date": "2024-05-13",
+      "direction": "Backend",
+      "cost": 728.07,
+      "city": "East Hayleyside"
+    },
+    {
+      "id": 192,
+      "title": "Multi-tiered methodical initiative",
+      "date": "2025-04-13",
+      "direction": "Frontend",
+      "cost": 838.67,
+      "city": "East Whitney"
+    },
+    {
+      "id": 193,
+      "title": "Open-architected disintermediate customer loyalty",
+      "date": "2025-06-12",
+      "direction": "Backend",
+      "cost": 825.53,
+      "city": "Port Mark"
+    },
+    {
+      "id": 194,
+      "title": "Customer-focused fresh-thinking toolset",
+      "date": "2024-11-29",
+      "direction": "Backend",
+      "cost": 607.84,
+      "city": "Smithburgh"
+    },
+    {
+      "id": 195,
+      "title": "Re-engineered analyzing collaboration",
+      "date": "2023-11-10",
+      "direction": "Backend",
+      "cost": 844.56,
+      "city": "Wrightport"
+    },
+    {
+      "id": 196,
+      "title": "Operative leadingedge artificial intelligence",
+      "date": "2023-07-28",
+      "direction": "Fullstack",
+      "cost": 893.99,
+      "city": "South Ryanhaven"
+    },
+    {
+      "id": 197,
+      "title": "Synergistic coherent product",
+      "date": "2025-04-20",
+      "direction": "DevOps",
+      "cost": 546.39,
+      "city": "Sheilaside"
+    },
+    {
+      "id": 198,
+      "title": "Triple-buffered didactic service-desk",
+      "date": "2023-12-13",
+      "direction": "Fullstack",
+      "cost": 927.33,
+      "city": "Williamberg"
+    },
+    {
+      "id": 199,
+      "title": "Horizontal analyzing throughput",
+      "date": "2023-12-30",
+      "direction": "Backend",
+      "cost": 389.18,
+      "city": "South Jennifermouth"
+    },
+    {
+      "id": 200,
+      "title": "Optimized foreground leverage",
+      "date": "2024-02-20",
+      "direction": "Fullstack",
+      "cost": 224.44,
+      "city": "Kingburgh"
+    }
+  ]
+}

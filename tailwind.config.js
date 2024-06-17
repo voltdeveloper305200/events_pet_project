@@ -110,6 +110,9 @@ export default {
       auto: "auto",
       0: "0px",
     },
+    width: {
+      100: '100%'
+    }
   },
   plugins: [],
 };
