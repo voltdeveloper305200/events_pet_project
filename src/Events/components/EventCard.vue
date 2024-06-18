@@ -19,7 +19,7 @@
         <p class="content-cost mt-16">$ {{ props.cost }}</p>
         <h2 class="content-title mt-12">{{ props.title }}</h2>
       </div>
-      <button class="request-btn mt-20">Записаться</button>
+      <button @click="clickBtn" class="request-btn mt-20">Записаться</button>
     </div>
   </div>
   <Skeletor v-else width="100%" height="291px" />
@@ -45,6 +45,11 @@ const formattedDate = computed(() => {
   return moment(props.date).format("DD.MM.YYYY");
 });
 
+const emit = defineEmits(["clickBtn"]);
+
+const clickBtn = () => {
+  emit("clickBtn");
+};
 </script>
 
 <style lang="scss" scoped>

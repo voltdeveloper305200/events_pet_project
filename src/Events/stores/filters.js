@@ -24,8 +24,21 @@ export const useFiltersStore = defineStore("useFiltersStore", () => {
   const selectedDirection = ref("");
   const selectedCity = ref("");
 
-//   const filteredEvents = computed(() => {
-//   })
+  const variantsSortCost = [
+    { id: 1, name: "Сначала дешевые", value: "low" },
+    { id: 2, name: "Сначала дорогие", value: "high" },
+  ];
+
+  const variantsSortDate = [
+    { id: 1, name: "Сначала старые", value: "old" },
+    { id: 2, name: "Сначала новые", value: "new" },
+  ];
+
+  const selectedSortCost = ref({ id: 1, name: "Сначала дешевые", value: "low" });
+  const selectedSortDate = ref({ id: 1, name: "Сначала старые", value: "old" });
+
+  //   const filteredEvents = computed(() => {
+  //   })
 
   return {
     minCost,
@@ -36,6 +49,10 @@ export const useFiltersStore = defineStore("useFiltersStore", () => {
     selectedDirection,
     selectedCity,
     selectedVariantVisible,
-    selectedDateRange
+    selectedDateRange,
+    variantsSortCost,
+    variantsSortDate,
+    selectedSortCost,
+    selectedSortDate,
   };
 });

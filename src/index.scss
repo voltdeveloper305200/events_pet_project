@@ -22,3 +22,16 @@ body {
 .vue-skeletor {
   border-radius: 8px;
 }
+
+.btn-filters {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: theme('colors.accent');
+  font-size: 14px;
+  font-weight: 500;
+  color: theme('colors.white');
+}

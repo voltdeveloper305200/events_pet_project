@@ -11,6 +11,7 @@
       <template #default="{ togglePopover }">
         <input
           v-model="formattedDate"
+          readonly
           class="filter-date__input mt-12"
           @focus="togglePopover"
           type="text"

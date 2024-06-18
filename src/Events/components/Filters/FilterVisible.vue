@@ -1,6 +1,5 @@
 <template>
   <div class="filter-visible">
-    <h3>Отображение</h3>
     <div class="filter-visible__items flex items-center">
       <div
         v-for="item in filtersStore.variantsVisible"
@@ -30,7 +29,7 @@ const selectVariantVisible = (variant) => {
   &__item {
     margin-left: 16px;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 20px;
     &:first-child {
       margin-left: 0;
     }

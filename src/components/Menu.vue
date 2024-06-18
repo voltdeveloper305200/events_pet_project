@@ -39,6 +39,9 @@
         font-weight: 500;
         line-height: 24px;
         color: theme("colors.basic");
+        &.router-link-active.router-link-exact-active {
+          color: theme('colors.accent');
+        }
       }
     }
   }

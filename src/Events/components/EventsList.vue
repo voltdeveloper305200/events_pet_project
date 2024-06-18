@@ -6,13 +6,14 @@
     >
       <div class="grid grid-cols-12 gap-24" v-if="!eventsStore.isLoading">
         <div
-          class="col-span-4"
+          class="col-span-12 md:col-span-6 lg:col-span-4"
           v-for="(event, index) in eventsStore.visibleEvents"
           :key="event.id"
           :ref="(el) => setObserver(el, index)"
         >
           <EventCard
             class="h-full"
+            @clickBtn="openRequestForm(event)"
             :direction="event.direction"
             :date="event.date"
             :location="event.city"
@@ -28,7 +29,7 @@
       </div>
     </div>
     <div
-      class="list"
+      class="list hidden lg:block"
       v-if="filtersStore.selectedVariantVisible.code === 'list'"
     >
       <div class="grid grid-cols-12 gap-24" v-if="!eventsStore.isLoading">
@@ -39,6 +40,7 @@
           :ref="(el) => setObserver(el, index)"
         >
           <EventRow
+            :id="event.id"
             :direction="event.direction"
             :date="event.date"
             :location="event.city"
@@ -47,13 +49,8 @@
           />
         </div>
       </div>
-      <!-- <div class="grid grid-cols-12 gap-24" v-else>
-        <div class="col-span-4" v-for="index in 9" :key="index">
-          <EventCard class="h-full" :isLoading="true" />
-        </div>
-      </div> -->
     </div>
-    <RequestForm />
+    <RequestForm @sendRequest="sendRequest" />
   </div>
 </template>
 
@@ -64,22 +61,51 @@ import { useFiltersStore } from "../stores/filters";
 import EventCard from "./EventCard.vue";
 import EventRow from "./EventRow.vue";
 import RequestForm from "./RequestForm.vue";
-import useModal from "../../hooks/useModal";
 
 const eventsStore = useEventsStore();
 const filtersStore = useFiltersStore();
 
 const observer = ref(null);
 
+const selectedEvent = ref(null);
+
 const setObserver = (el, index) => {
   if (el && index === eventsStore.visibleEvents.length - 1) {
-    observer.value.observe(el);
+    if (observer.value != null) {
+      observer.value.observe(el);
+    }
   }
 };
 
+const openRequestForm = (event) => {
+  selectedEvent.value = event;
+  window.dispatchEvent(new CustomEvent(`show-request-form`));
+};
+
+const sendRequest = (data) => {
+  const events = JSON.parse(sessionStorage.getItem("myEvents")) || [];
+  const requests = JSON.parse(sessionStorage.getItem("requests")) || [];
+
+  const eventExists = events.some(
+    (event) => event.id === selectedEvent.value.id
+  );
+  const requestsExists = requests.some(
+    (request) => request.email === data.email
+  );
+
+  if (!eventExists) {
+    events.push({ ...selectedEvent.value });
+    sessionStorage.setItem("myEvents", JSON.stringify(events));
+  }
+  if (!requestsExists) {
+    requests.push({ ...data });
+    sessionStorage.setItem("requests", JSON.stringify(requests));
+  }
+
+  window.dispatchEvent(new CustomEvent(`close-request-form`));
+};
+
 onMounted(async () => {
-  const modal = useModal();
-  modal().toggle("request-form");
   await eventsStore.fetchEvents();
   eventsStore.loadMoreEvents();
   observer.value = new IntersectionObserver(

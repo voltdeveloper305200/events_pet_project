@@ -13,6 +13,9 @@
     width: 100%;
     height: 40px;
     border: 1px solid theme("colors.stroke");
+    border-radius: 6px;
+    outline: none;
+    padding: 0 12px;
   }
 }
 </style>

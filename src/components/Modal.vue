@@ -1,182 +1,69 @@
 <template>
-  <div :id="id" class="modal" :class="classes" @click="bus.emit(`close:${id}`)">
-    <div class="modal__card" @click.stop>
-      <div class="header">
-        <div class="row">
-          <slot name="icon" />
-          <div class="header__title">
-            <slot name="title" />
-          </div>
-        </div>
-        <div
-          v-if="slots.close"
-          class="header__close"
-          @click="bus.emit(`close:${id}`)"
-        >
-          <slot name="close" />
-        </div>
-      </div>
+  <div v-if="isVisible" class="modal-overlay" @click="close">
+    <div class="modal-content" @click.stop>
       <slot></slot>
+      <button class="modal-close text-20" @click="close">
+        <i class="fa-solid fa-circle-xmark text-accent"></i>
+      </button>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, useSlots, onMounted, computed } from "vue";
-import bus from "vue3-eventbus";
-
-const slots = useSlots();
+import { ref, onMounted, onUnmounted } from "vue";
 
 const props = defineProps({
-  id: {
-    type: String,
-    default: "main-modal",
-  },
-  type: {
-    type: String,
-  },
+  id: String,
 });
 
-const classes = computed(() => {
-  const classes = [];
-  if (props.type === "clear") {
-    classes.push("clear");
-  }
-  return classes;
-});
+const isVisible = ref(false);
 
-const defaultState = ref(false);
-
-const timeout = ref(null);
-
-const appScrollOff = () => {
-  const app = document.querySelector("html, body");
-  app.classList.add("scroll_off");
+const show = () => {
+  isVisible.value = true;
 };
 
-const appScrollOn = () => {
-  const app = document.querySelector("html, body");
-  app.classList.remove("scroll_off");
+const close = () => {
+  isVisible.value = false;
 };
-
-const openModal = ($modal) => {
-  $modal.style.display = "flex";
-  $modal.classList.add("open");
-  defaultState.value = true;
-  appScrollOff();
-};
-
-const closeModal = ($modal) => {
-  appScrollOn();
-  $modal.classList.remove("active");
-  $modal.classList.add("close");
-  timeout.value = setTimeout(() => {
-    $modal.style.display = "none";
-    $modal.classList.remove("close");
-  }, 200);
-};
-
-bus.on(`toggle:${props.id}`, (open) => {
-  const $modal = document.querySelector(`#${props.id}`);
-  defaultState.value = false;
-
-  if (open) {
-    openModal($modal);
-    return;
-  }
-
-  if (!open) {
-    closeModal($modal);
-    return;
-  }
-});
 
 onMounted(() => {
-  const $modal = document.querySelector(`#${props.id}`);
-  if (!defaultState.value) {
-    $modal.style.display = "none";
-    return;
-  }
-  openModal($modal);
+  window.addEventListener(`show-${props.id}`, show);
+  window.addEventListener(`close-${props.id}`, close);
+});
+
+onUnmounted(() => {
+  window.removeEventListener(`show-${props.id}`, show);
+  window.removeEventListener(`close-${props.id}`, close);
 });
 </script>
 
-<style lang="scss" scoped>
-.modal {
+<style scoped>
+.modal-overlay {
   position: fixed;
-  overflow: auto;
-  opacity: 0;
-  z-index: 9999;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(23, 18, 81, 0.6);
-  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  &__card {
-    margin-top: 80px;
-    background: white;
-    padding: 24px;
-    border-radius: 12px;
-  }
-  .header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    .row {
-      display: inherit;
-      align-items: inherit;
-    }
-    &__title {
-      margin-left: 12px;
-      font-size: 24px;
-      font-weight: 400;
-      color: theme("colors.heading");
-    }
-    &__close {
-      margin-left: auto;
-      cursor: pointer;
-      transition: opacity 0.25s ease;
-      &:active {
-        transform: scale(0.9);
-      }
-      &:hover {
-        opacity: 0.85;
-      }
-    }
-  }
-}
-.modal.open {
-  animation: open 0.3s ease-out forwards;
-  @keyframes open {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-}
-.modal.close {
-  animation: close 0.2s ease-out forwards;
-  @keyframes close {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
+  align-items: center;
 }
 
-.modal.clear {
-  .modal__card {
-    background: transparent;
-    padding: 0;
-    border-radius: 0;
-  }
+.modal-content {
+  min-width: 500px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 </style>

@@ -1,14 +1,14 @@
 <template>
   <div class="filter-direction">
-    <p>По цене</p>
+    <p>По дате</p>
     <select
-      v-model="filtersStore.selectedSortCost"
+      v-model="filtersStore.selectedSortDate"
       class="filter-direction__select mt-8"
       name=""
       id=""
     >
       <option
-        v-for="item in filtersStore.variantsSortCost"
+        v-for="item in filtersStore.variantsSortDate"
         :key="item.id"
         :value="item"
       >
