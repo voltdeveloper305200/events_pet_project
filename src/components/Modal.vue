@@ -52,7 +52,7 @@ onUnmounted(() => {
 }
 
 .modal-content {
-  min-width: 500px;
+  min-width: 650px;
   background: white;
   padding: 20px;
   border-radius: 5px;
