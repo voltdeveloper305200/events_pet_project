@@ -19,7 +19,9 @@
         <p class="content-cost mt-16">$ {{ props.cost }}</p>
         <h2 class="content-title mt-12">{{ props.title }}</h2>
       </div>
-      <button @click="clickBtn" class="request-btn mt-20">Записаться</button>
+      <button v-if="!isMyEvent" @click="clickBtn" class="request-btn mt-20">
+        Записаться
+      </button>
     </div>
   </div>
   <Skeletor v-else width="100%" height="291px" />
@@ -27,9 +29,13 @@
 
 <script setup>
 import moment from "moment";
-import { computed, onMounted } from "vue";
+import { computed } from "vue";
 
 const props = defineProps({
+  isMyEvent: {
+    type: Boolean,
+    default: false,
+  },
   isLoading: {
     type: Boolean,
     default: false,
@@ -76,11 +82,19 @@ const clickBtn = () => {
     font-weight: 600;
     line-height: 24px;
     color: theme("colors.accent");
+    @media (max-width: 576px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
   }
   .content-title {
     font-size: 26px;
     font-weight: 500;
     line-height: 32px;
+    @media (max-width: 576px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
   }
   .content-location {
     font-size: 16px;

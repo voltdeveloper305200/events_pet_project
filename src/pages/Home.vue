@@ -1,17 +1,17 @@
 <template>
   <div class="home-page">
     <EventsFilters v-if="!eventsStore.isLoading" />
-    <div class="grid grid-cols-12 gap-32">
+    <div class="grid grid-cols-12 sm:gap-32">
       <div class="col-span-12 md:col-span-6 lg:col-span-4">
         <EventsSearch />
-        <FilterVisible class="mt-12 hidden lg:block"/>
+        <FilterVisible class="mt-12 hidden lg:block" />
       </div>
-      <div class="col-span-12 md:col-span-6 md:col-start-9">
-        <div class="flex items-center md:justify-end">
+      <div class="col-span-12 md:col-span-6 md:col-start-9 mt-12 sm:mt-0">
+        <div class="flex flex-col sm:flex-row sm:items-center md:justify-end">
           <SortCost />
-          <SortDate class="ms-16" />
+          <SortDate class="mt-16 sm:mt-0 sm:ms-16" />
         </div>
-        <div class="flex md:justify-end">
+        <div class="flex md:justify-end mt-12 sm:mt-0">
           <button @click="openFilters" class="btn-filters mt-12">
             Фильтры
           </button>

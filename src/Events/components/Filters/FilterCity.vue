@@ -24,9 +24,6 @@ const cities = computed(() => {
   return Array.from(uniqueCities);
 });
 
-onMounted(() => {
-  filtersStore.selectedCity = cities.value[0];
-});
 </script>
 
 <style lang="scss" scoped>

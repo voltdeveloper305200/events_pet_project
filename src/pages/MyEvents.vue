@@ -1,10 +1,12 @@
 <template>
   <div class="my-events-page">
-    my-events
+    <MyEventsList/>
   </div>
 </template>
 
 <script setup>
+import MyEventsList from '../Events/components/MyEventsList.vue';
+
 
 </script>
 

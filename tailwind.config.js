@@ -64,6 +64,7 @@ export default {
       42: "42px",
       48: "48px",
       64: "64px",
+      228: '228px'
     },
     fontWeight: {
       100: "100",

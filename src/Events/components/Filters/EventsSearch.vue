@@ -1,11 +1,20 @@
 <template>
   <div class="events-search">
     <h3 class="title">Поиск</h3>
-    <input class="events-search__input mt-12" type="text" />
+    <input
+      v-model="filtersStore.searchQuery"
+      placeholder="Frontend"
+      class="events-search__input mt-12"
+      type="text"
+    />
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { useFiltersStore } from "../../stores/filters";
+
+const filtersStore = useFiltersStore();
+</script>
 
 <style lang="scss" scoped>
 .events-search {

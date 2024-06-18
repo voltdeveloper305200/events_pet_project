@@ -24,6 +24,7 @@ const show = () => {
 
 const close = () => {
   isVisible.value = false;
+  window.dispatchEvent(new CustomEvent(`onClosed-${props.id}`));
 };
 
 onMounted(() => {
@@ -37,7 +38,7 @@ onUnmounted(() => {
 });
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -56,6 +57,11 @@ onUnmounted(() => {
   padding: 20px;
   border-radius: 5px;
   position: relative;
+  @media (max-width: 576px) {
+    min-width: 0;
+    width: 100%;
+    margin: 0 16px;
+  }
 }
 
 .modal-close {

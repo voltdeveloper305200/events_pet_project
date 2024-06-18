@@ -10,7 +10,7 @@
     >
       <template #default="{ togglePopover }">
         <input
-          v-model="formattedDate"
+          v-model="filtersStore.selectedDateString"
           readonly
           class="filter-date__input mt-12"
           @focus="togglePopover"
@@ -34,19 +34,22 @@ const formattedDate = ref("");
 
 const updateFormattedDate = () => {
   if (selectedDateRange.value.start && selectedDateRange.value.end) {
-    formattedDate.value = `${moment(selectedDateRange.value.start).format(
+    filtersStore.selectedDateString = `${moment(
+      selectedDateRange.value.start
+    ).format("DD.MM.YYYY")} - ${moment(selectedDateRange.value.end).format(
       "DD.MM.YYYY"
-    )} - ${moment(selectedDateRange.value.end).format("DD.MM.YYYY")}`;
+    )}`;
     filtersStore.selectedDateRange.start = moment(
       selectedDateRange.value.start
     ).format("DD.MM.YYYY");
+
     filtersStore.selectedDateRange.end = moment(
       selectedDateRange.value.end
     ).format("DD.MM.YYYY");
   } else if (selectedDateRange.value.start) {
-    formattedDate.value = moment(selectedDateRange.value.start).format(
-      "DD.MM.YYYY"
-    );
+    filtersStore.selectedDateString = moment(
+      selectedDateRange.value.start
+    ).format("DD.MM.YYYY");
   } else {
     formattedDate.value = "";
   }

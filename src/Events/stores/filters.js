@@ -21,6 +21,8 @@ export const useFiltersStore = defineStore("useFiltersStore", () => {
     start: "",
     end: "",
   });
+  const selectedDateString = ref('')
+
   const selectedDirection = ref("");
   const selectedCity = ref("");
 
@@ -34,8 +36,31 @@ export const useFiltersStore = defineStore("useFiltersStore", () => {
     { id: 2, name: "Сначала новые", value: "new" },
   ];
 
-  const selectedSortCost = ref({ id: 1, name: "Сначала дешевые", value: "low" });
-  const selectedSortDate = ref({ id: 1, name: "Сначала старые", value: "old" });
+  const selectedSortCost = reactive({
+    id: 1,
+    name: "Сначала дешевые",
+    value: "low",
+  });
+  const selectedSortDate = reactive({ id: 1, name: "Сначала старые", value: "old" });
+
+  const searchQuery = ref("");
+
+  const applyFilters = ref(false);
+
+  const applyFilterChanges = () => {
+    applyFilters.value = true;
+  };
+
+  const resetFilters = () => {
+    minPrice.value = minCost;
+    maxPrice.value = maxCost;
+    selectedDateRange.start = "";
+    selectedDateRange.end = "";
+    selectedDateString.value = "";
+    selectedDirection.value = "";
+    selectedCity.value = "";
+    applyFilters.value = true;
+  };
 
   //   const filteredEvents = computed(() => {
   //   })
@@ -50,9 +75,14 @@ export const useFiltersStore = defineStore("useFiltersStore", () => {
     selectedCity,
     selectedVariantVisible,
     selectedDateRange,
+    selectedDateString,
     variantsSortCost,
     variantsSortDate,
     selectedSortCost,
     selectedSortDate,
+    searchQuery,
+    applyFilters,
+    applyFilterChanges,
+    resetFilters,
   };
 });

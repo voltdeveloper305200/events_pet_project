@@ -23,24 +23,39 @@
   background: theme("colors.white");
   box-shadow: theme("boxShadow.menu");
   border: 1px solid theme("colors.stroke");
+  @media (max-width: 576px) {
+    padding: 10px;
+  }
   .menu-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media (max-width: 576px) {
+      flex-direction: column;
+    }
     &__logo {
       font-size: 20px;
       font-weight: 600;
       line-height: 22px;
       color: theme("colors.heading");
+      @media (max-width: 576px) {
+        font-size: 14px;
+      }
     }
     &__nav {
+      @media (max-width: 576px) {
+        margin-top: 8px;
+      }
       .nav-item {
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         color: theme("colors.basic");
         &.router-link-active.router-link-exact-active {
-          color: theme('colors.accent');
+          color: theme("colors.accent");
+        }
+        @media (max-width: 576px) {
+          font-size: 12px;
         }
       }
     }

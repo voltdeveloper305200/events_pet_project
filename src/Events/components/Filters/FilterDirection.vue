@@ -29,9 +29,6 @@ const directions = computed(() => {
   return Array.from(uniqueDirections);
 });
 
-onMounted(() => {
-  filtersStore.selectedDirection = directions.value[0];
-});
 </script>
 
 <style lang="scss" scoped>

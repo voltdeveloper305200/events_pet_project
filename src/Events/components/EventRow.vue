@@ -3,8 +3,7 @@
     <div class="grid grid-cols-12 items-center w-full">
       <div class="col-span-5">
         <div class="flex items-center">
-          <div class="number">{{ props.id }}</div>
-          <h2 class="title ms-6">{{ props.title }}</h2>
+          <h2 class="title">{{ props.title }}</h2>
         </div>
       </div>
       <div class="col-span-3">
@@ -32,7 +31,7 @@
               <div class="col-span-5">
                 <p class="cost">$ {{ props.cost }}</p>
               </div>
-              <div class="col-span-7">
+              <div @click="clickBtn" class="col-span-7">
                 <button class="btn-request">Записаться</button>
               </div>
             </div>
@@ -63,6 +62,12 @@ const props = defineProps({
 const formattedDate = computed(() => {
   return moment(props.date).format("DD.MM.YYYY");
 });
+
+const emit = defineEmits(["clickBtn"]);
+
+const clickBtn = () => {
+  emit("clickBtn");
+};
 </script>
 
 <style lang="scss" scoped>
@@ -93,19 +98,6 @@ const formattedDate = computed(() => {
     font-weight: 600;
     line-height: 16px;
     color: theme("colors.accent");
-  }
-  .number {
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: theme("colors.accent");
-    border-radius: 100%;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 14px;
-    color: theme("colors.white");
   }
   .title {
     font-size: 18px;
