@@ -7,9 +7,4 @@
 <script setup>
 import MyEventsList from '../Events/components/MyEventsList.vue';
 
-
 </script>
-
-<style>
-
-</style>

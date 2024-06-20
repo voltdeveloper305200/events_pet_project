@@ -46,9 +46,10 @@
 </template>
 
 <script setup>
-import { computed, onMounted, ref } from "vue";
+import { onMounted, ref } from "vue";
 import Modal from "../../components/Modal.vue";
 import { vMaska } from "maska";
+import { validateForm } from "../utils/validateForm";
 
 const email = ref("");
 const number = ref("");
@@ -56,12 +57,6 @@ const number = ref("");
 const step = ref("form");
 
 const emit = defineEmits(["sendRequest"]);
-
-const validateForm = computed(() => {
-  const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-  const phonePattern = /^\+7\(\d{3}\)-\d{3}-\d{2}-\d{2}$/;
-  return emailPattern.test(email.value) && phonePattern.test(number.value);
-});
 
 const resetForm = () => {
   email.value = "";
@@ -77,12 +72,13 @@ const sendRequest = () => {
     number: number.value,
     email: email.value,
   };
-  if (validateForm.value) {
+  const validateFormModel = validateForm(email.value, number.value);
+  if (validateFormModel) {
     emit("sendRequest", data);
     resetForm();
     step.value = "success";
   } else {
-    alert("error");
+    alert("Заполните поля правильно");
   }
 };
 
